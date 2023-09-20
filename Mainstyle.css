@@ -1,0 +1,42 @@
+li{
+    float: left;
+
+}
+a{display:inline-table;
+padding:  50px; 
+text-decoration:nonet;}
+
+
+
+
+
+body{
+    background-color: rgb(184, 181, 21);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+a{color: black;
+text-decoration: non;}
+}
+
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 0;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: scale-down;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1em;
+    list-style-type: none;
+
+}
