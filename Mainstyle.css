@@ -3,15 +3,37 @@ li{
 
 }
 a{display:inline-table;
-padding:  50px; 
+padding:  1em; 
 text-decoration:nonet;}
 
+.nav-bar{
+    background-color: gray;
+    overflow: hidden;
+}
 
+.nav-bar a{
+    float:left;
+    color:white;
+    text-align:center;
+    padding:1em;
+    text-decoration: none;
+    font-size:large;
+}
+
+.nav-bar a:hover {
+    background-color: goldenrod;
+    color:white;
+}
+
+.nav-bar a.current {
+    background-color: gold;
+    color: white;
+}
 
 
 
 body{
-    background-color: rgb(184, 181, 21);
+    background-color:aliceblue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 
@@ -21,22 +43,52 @@ text-decoration: non;}
 
 
 img{
-    display: block;
+    display: flexbox;
     max-width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
     height: auto;
-    border-radius: 0;
+    border-radius: 0%;
     margin-left: auto;
     margin-right: auto;
     object-fit: scale-down;
+    flex: auto;
+    
 }
 
 
 
-nav{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 1em;
-    list-style-type: none;
 
+.intro-text{
+    display: flexbox;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.figthcardrodtang{
+    width:50em;
+    min-height: 30em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+  
+}
+
+.fightcardtawanchai{
+    width: 50em;
+    min-height: 30em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fightcardhaggerty{
+    width: 50em;
+    min-height: 30em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
