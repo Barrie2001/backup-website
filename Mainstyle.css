@@ -42,6 +42,7 @@ text-decoration: non;}
 }
 
 
+
 img{
     display: flexbox;
     max-width: 100%;
@@ -57,6 +58,9 @@ img{
     
 }
 
+.list{
+    margin-left: 2em;
+}
 
 
 
